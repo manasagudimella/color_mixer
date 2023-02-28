@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "color-mixer"
+version = "0.1.0"
+description = ""
+authors = ["mgudimella <manasa.gudimella@gmail.com>"]
+readme = "README.md"
+packages = [{include = "color_mixer"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+dash = "^2.8.1"
+numpy = "^1.24.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
