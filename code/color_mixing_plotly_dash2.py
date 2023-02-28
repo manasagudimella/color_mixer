@@ -10,11 +10,11 @@ import base64
 app = dash.Dash(__name__)
 
 # Set the background image
-background_image = "C:\\Users\\mgudimella\\OneDrive - Microsoft\\Documents\\Projects\\deeplearning\\dlfs\\notebooks\\color_mixer_image.jpg"
+background_image = "path_to_file\\color_mixer_image.jpg"
 
 # Load the background image as a base64-encoded string
 
-IMG_PATH = "C:\\Users\\mgudimella\\OneDrive - Microsoft\\Documents\\Projects\\deeplearning\\dlfs\\notebooks\\color_mixer_image.jpg"
+IMG_PATH = "path_to_file\\color_mixer_image.jpg"
 with open(IMG_PATH, 'rb') as f:
     encoded_image = base64.b64encode(f.read()).decode()
 # Define the RGB to XYZ transformation matrix
